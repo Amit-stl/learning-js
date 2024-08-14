@@ -36,3 +36,37 @@ const myFunction = function(){
 console.log(typeof myFunction);
 
 
+//****************************************************   Stack and Heap memory   ****************************** */
+
+// stack (primitive)  , Heap(Non premitive )
+
+
+
+let myYoutubename = "Deku"
+
+let anotherName = myYoutubename
+  anotherName = "allmight"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+
+let userOne = {
+    email : "amit@google.com",
+
+    upi : "userybl"
+}
+
+let userTwo = userOne
+
+ userTwo.email  = "shivin@google.com"
+ 
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
+
+
+
+
+
+
