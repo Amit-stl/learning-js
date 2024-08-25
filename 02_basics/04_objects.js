@@ -28,8 +28,8 @@ first name is a string and string donot have a last name propert.hats why it ret
 
 //console.log(`${regularUser.fullname.userfullname.firstname} ${regularUser.fullname.userfullname.lastname}`);
 
-const obj1 = {1:"a" , 2:"b"}
-const obj2 = {3:"c" , 4:"d"}
+const obj1 = { 1: "a", 2: "b" }
+const obj2 = { 3: "c", 4: "d" }
 
 // i want to merge, 3 methods
 
@@ -53,5 +53,30 @@ const obj3 = Object.assign({}, obj1, obj2)
 // console.log(Object.values (tinderuser));
 // console.log(Object.entries (tinderuser));  =>thes are are very important helpfull while using loop
 
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const { courseInstructor: instructor } = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "name": "Amit",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
 
 
